@@ -1,0 +1,26 @@
+.rowWrapper {
+  color: #fff;
+  margin-bottom: 10px;
+  z-index: 3;
+  margin-left: 5vw;
+}
+
+.rowTitle {
+  font-size: 1.4vw;
+  letter-spacing: 0.7px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  z-index: 3;
+}
+
+.rowCard {
+  display: flex;
+  align-items: center;
+  height: 130px;
+  color: #fff;
+  overflow-x: scroll;
+}
+
+.rowCard::-webkit-scrollbar {
+  display: none;
+}
